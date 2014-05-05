@@ -1,12 +1,14 @@
 Source: ptux-sdk-beaglexm
-Section: unknown
+Section: devel
 Priority: extra
-Maintainer: unknown <bgat@mercury.billgatliff.com>
+Maintainer: Bill Gatliff <bgat@billgatliff.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 
 Package: ptux-sdk-beaglexm
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Pragmatux SDK for Beagleboard XM
+ Meta-package referencing SDK tools for the
+ Beagleboard XM target (http://beagleboard.org).
+Depends:
+ ptux-sdk-armhf
