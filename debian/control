@@ -11,4 +11,5 @@ Description: Pragmatux SDK for Beagleboard XM
  Meta-package referencing SDK tools for the
  Beagleboard XM target (http://beagleboard.org).
 Depends:
- ptux-sdk-armhf
+ ptux-sdk-armhf,
+ mkos-beaglexm,
