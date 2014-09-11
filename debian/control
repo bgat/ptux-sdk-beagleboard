@@ -1,5 +1,5 @@
 Source: ptux-sdk-beagleboard
-Section: unknown
+Section: devel
 Priority: extra
 Maintainer: Bill Gatliff <bgat@billgatliff.com>
 Build-Depends: debhelper (>= 8.0.0)
@@ -7,6 +7,9 @@ Standards-Version: 3.9.3
 
 Package: ptux-sdk-beagleboard
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Pragmatux SDK for Beagleboard Rev C/D
+ Meta-package referencing SDK tools for the
+ Beagleboard Rev C/D target (http://beagleboard.org).
+Depends:
+ ptux-sdk-armhf,
+ mkos-beagleboard,
